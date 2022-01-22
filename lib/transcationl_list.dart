@@ -22,7 +22,7 @@ class Transcation1 extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         ListTile(
-          leading: (Image.network(img,width: 30,)),
+          leading: (Image.network(img)),
           title: Text(heading),
           subtitle: Text(subhead),
           trailing: Column(children: [
